@@ -1,0 +1,17 @@
+.onglet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F7;
+  width: 1200px;
+  margin: 12px auto;
+}
+
+.onglet h2 {
+  margin: 16px 0px 16px 70px;
+  font-size: 30px;
+}
+
+.onglet a {
+  margin-right: 50px;
+}

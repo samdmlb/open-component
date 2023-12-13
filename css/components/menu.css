@@ -1,0 +1,51 @@
+.menu-container {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin-left: 50px;
+}
+
+.menu-card {
+  display: flex;
+  align-items: center;
+  width: 241px;
+  margin: 2px 13px;
+  padding: 11px 13px;
+  border-radius: 8px;
+}
+
+.menu-title{
+  margin: 0 0 0 26px;
+}
+
+.menu-card h3 {
+  margin: 0 0 0 15px;
+  font-weight: 500;
+  color: black;
+}
+
+.menu-title h4 {
+  margin: 8px 0px;
+  color: #888888;
+}
+
+.menu-card a {
+  text-decoration: none;
+}
+
+.menu-card:hover {
+  background-color: #EEEEEE;
+}
+
+.menu-card:first-child {
+  margin-top: 13px;
+}
+
+.menu-card:last-child {
+  margin-bottom: 13px;
+}
+
+.menu-tab-active {
+  background-color: #EEEEEE;
+}

@@ -1,0 +1,65 @@
+.banner-container {
+  background-color: white;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.banner .tab-active {
+  color: black;
+  border-bottom: 3px solid #0CC8AC;
+}
+
+.banner a {
+  color: #888888;
+}
+
+.banner a:hover {
+  color: black;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-container a {
+  padding-right: 15px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner li {
+  float: left;
+  font-size: 18px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 33px 0px;
+  margin: 0px 20px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.profile-container a {
+  padding: 15px;
+}
+
+.banner h1 {
+  margin: 0;
+}
